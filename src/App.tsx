@@ -1,5 +1,4 @@
-
-import './App.css'
+import "./App.css";
 import React, { useState, useEffect, useRef } from "react";
 
 const CountdownTimer: React.FC = () => {
@@ -72,7 +71,6 @@ const CountdownTimer: React.FC = () => {
 				min="0" //this is to set only positive numbers
 			/>
 			<h2>{timeLeft} sekunder kvar</h2>{" "}
-
 			<button onClick={startTimer}>Starta</button>
 			<button onClick={pauseTimer}>Pausa</button>
 			<button onClick={resetTimer}>Återställ</button>
@@ -81,4 +79,4 @@ const CountdownTimer: React.FC = () => {
 	);
 };
 
-export default CountdownTimer; 
+export default CountdownTimer;
